@@ -78,7 +78,6 @@ git push -u origin feat/your-name-feature
 
 ## 待辦
 
-- [ ] 填入四位組員對應帳號並完成邀請。
 - [ ] 匯入目前共用的 App 程式碼。
 - [ ] 補上本機執行方式與不含機密值的設定範例。
 - [ ] 確認 Supabase 既有結構並保存後續 SQL 變更。
