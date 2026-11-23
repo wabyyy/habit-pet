@@ -1,0 +1,71 @@
+:root {
+  font-family:
+    "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  font-size: 16px;
+  color: #43513b;
+  background: #faf8f1;
+  font-synthesis: none;
+  --ink: #43513b;
+  --muted: #7d856f;
+  --sage: #788b61;
+  --sage-dark: #5e744b;
+  --line: #e8e8dc;
+  --cream: #f7efd5;
+  --green-pale: #eef1e4;
+  --pink: #f7e9e2;
+  --blue: #e7eff0;
+  --radius: 22px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+  color: inherit;
+  background: none;
+  border: 0;
+}
+button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+a {
+  color: var(--sage-dark);
+}
+svg {
+  display: block;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #96a67b;
+  outline-offset: 4px;
+}
+input:focus,
+select:focus {
+  outline: 2px solid #a7b58d;
+  border-color: transparent !important;
+}
+input[aria-invalid="true"] {
+  border-color: #b7806b !important;
+}
+[hidden] {
+  display: none !important;
+}
+.art-icon {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+}

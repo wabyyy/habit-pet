@@ -1,0 +1,597 @@
+@media (min-width: 1550px) {
+  .habit-workspace {
+    grid-template-columns: 245px minmax(0, 1fr);
+  }
+  .sidebar {
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+  .page-content {
+    padding-top: 43px;
+  }
+  .today-layout {
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 32px;
+  }
+  .welcome-banner {
+    min-height: 225px;
+  }
+  .welcome-illustration {
+    width: 255px;
+  }
+  .habit-row {
+    padding: 18px 17px;
+  }
+  .topbar {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+@media (max-width: 1150px) {
+  .habit-workspace {
+    grid-template-columns: 185px minmax(0, 1fr);
+  }
+  .sidebar {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .brand > span {
+    font-size: 1.2rem;
+  }
+  .brand > .art-icon {
+    width: 29px;
+  }
+  .brand small {
+    font-size: 0.5rem;
+  }
+  .topbar {
+    padding: 0 28px;
+  }
+  .page-content {
+    padding: 28px;
+  }
+  .page-heading h1 {
+    font-size: 1.65rem;
+  }
+  .today-layout {
+    grid-template-columns: minmax(0, 1fr) 200px;
+    gap: 20px;
+  }
+  .welcome-banner {
+    padding: 24px;
+  }
+  .welcome-illustration {
+    width: 200px;
+    margin-right: -10px;
+  }
+  .small-note {
+    padding: 22px 17px;
+  }
+  .small-note .button {
+    font-size: 0.73rem;
+  }
+  .app-footer {
+    margin: 0 28px;
+  }
+  .habit-row {
+    gap: 9px;
+    padding: 14px 11px;
+  }
+  .habit-description strong {
+    font-size: 0.88rem;
+  }
+  .quantity-caption {
+    display: none;
+  }
+  .habit-art {
+    width: 40px;
+    height: 40px;
+  }
+  .row-edit {
+    width: 25px;
+    padding: 2px;
+  }
+}
+@media (max-width: 920px) {
+  .habit-workspace {
+    grid-template-columns: 165px minmax(0, 1fr);
+  }
+  .sidebar {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .brand {
+    gap: 6px;
+  }
+  .brand > span {
+    font-size: 1.08rem;
+  }
+  .brand small {
+    font-size: 0.45rem;
+  }
+  .nav-link {
+    padding: 12px 10px;
+    font-size: 0.83rem;
+  }
+  .nav-link > .art-icon {
+    width: 21px;
+  }
+  .sidebar-heading {
+    font-size: 0.61rem;
+  }
+  .today-layout {
+    grid-template-columns: 1fr;
+  }
+  .daily-aside {
+    display: none;
+  }
+  .welcome-illustration {
+    width: 200px;
+  }
+  .welcome-copy h2 {
+    font-size: 1.05rem;
+  }
+  .welcome-copy p {
+    font-size: 0.78rem;
+  }
+  .page-heading h1 {
+    font-size: 1.5rem;
+  }
+  .heading-caption {
+    font-size: 0.83rem;
+  }
+  .page-heading > .button {
+    font-size: 0.78rem;
+    white-space: nowrap;
+    padding: 10px 13px;
+  }
+  .app-footer {
+    font-size: 0.65rem;
+    flex-wrap: wrap;
+  }
+  .management-list .habit-row {
+    padding: 16px;
+  }
+  .management-list .habit-description strong {
+    font-size: 0.93rem;
+  }
+}
+@media (max-width: 670px) {
+  .habit-workspace {
+    display: block;
+  }
+  .sidebar {
+    display: none;
+  }
+  .topbar {
+    height: 66px;
+    padding: 0 20px;
+  }
+  .breadcrumb {
+    display: none;
+  }
+  .mobile-brand {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1.15rem;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .mobile-brand > .art-icon {
+    width: 27px;
+    height: 31px;
+  }
+  .local-indicator {
+    font-size: 0.68rem;
+  }
+  .local-indicator > .art-icon {
+    width: 15px;
+  }
+  .mobile-tabs {
+    display: block;
+    padding: 13px 19px 0;
+  }
+  .mobile-tabs nav {
+    display: flex;
+    gap: 8px;
+  }
+  .nav-link {
+    padding: 9px 15px;
+    min-height: 41px;
+    font-size: 0.83rem;
+    gap: 7px;
+  }
+  .nav-link.active:after {
+    display: none;
+  }
+  .nav-link > .art-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .page-content {
+    padding: 25px 20px 30px;
+  }
+  .page-heading {
+    margin-bottom: 23px;
+    gap: 12px;
+    align-items: center;
+  }
+  .page-heading h1 {
+    font-size: 1.42rem;
+    margin: 8px 0 6px;
+    letter-spacing: 0.015em;
+  }
+  .eyebrow {
+    font-size: 0.55rem;
+    letter-spacing: 0.12em;
+  }
+  .heading-caption {
+    font-size: 0.78rem;
+    line-height: 1.9;
+    max-width: 230px;
+  }
+  .page-heading > .button {
+    font-size: 0.75rem;
+    padding: 10px 12px;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .page-heading > .button > .art-icon {
+    width: 17px;
+    height: 17px;
+  }
+  .welcome-banner {
+    min-height: 185px;
+    padding: 21px 20px;
+    margin-bottom: 22px;
+    gap: 0;
+  }
+  .welcome-copy h2 {
+    font-size: 0.98rem;
+    max-width: 200px;
+    line-height: 1.8;
+  }
+  .welcome-copy p {
+    font-size: 0.73rem;
+  }
+  .handwritten {
+    font-size: 0.62rem;
+    margin-bottom: 9px;
+  }
+  .tiny-leaf {
+    font-size: 0.61rem;
+    margin-top: 11px;
+  }
+  .tiny-leaf > .art-icon {
+    width: 13px;
+    height: 13px;
+  }
+  .welcome-illustration {
+    width: 148px;
+    margin: 0 -22px -9px -18px;
+  }
+  .cat-caption {
+    font-size: 0.56rem;
+    right: 16px;
+    top: -2px;
+    white-space: nowrap;
+  }
+  .week-calendar {
+    padding: 13px 12px;
+    border-radius: 16px;
+  }
+  .calendar-heading {
+    gap: 5px;
+  }
+  .calendar-heading > span {
+    font-size: 0.76rem;
+    gap: 4px;
+  }
+  .calendar-heading > span > .art-icon {
+    width: 16px;
+  }
+  .calendar-actions {
+    gap: 0;
+  }
+  .icon-button {
+    width: 29px;
+    height: 33px;
+  }
+  .text-button {
+    font-size: 0.72rem;
+  }
+  .week-days {
+    gap: 4px;
+  }
+  .day {
+    padding: 9px 0 7px;
+    gap: 6px;
+  }
+  .day > span {
+    font-size: 0.67rem;
+  }
+  .day > strong {
+    font-size: 0.85rem;
+  }
+  .progress-heading {
+    margin-top: 22px;
+  }
+  .daily-track {
+    margin-bottom: 25px;
+  }
+  .habit-art {
+    width: 42px;
+    height: 42px;
+  }
+  .habit-art > .art-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .habit-row {
+    padding: 15px 11px;
+    gap: 10px;
+    border-radius: 14px;
+  }
+  .habit-description strong {
+    font-size: 0.88rem;
+  }
+  .habit-description > span {
+    font-size: 0.71rem;
+  }
+  .row-quantity {
+    font-size: 0.68rem;
+  }
+  .row-quantity > strong {
+    font-size: 0.81rem;
+  }
+  .completion-mark {
+    width: 23px;
+    height: 23px;
+  }
+  .completion-mark > .art-icon {
+    width: 19px;
+    height: 19px;
+  }
+  .row-edit {
+    width: 24px;
+    min-height: 37px;
+    padding: 2px;
+  }
+  .row-edit > .art-icon {
+    width: 18px;
+  }
+  .group-title h2 {
+    font-size: 0.84rem;
+  }
+  .group-title > span {
+    font-size: 0.7rem;
+  }
+  .app-footer {
+    margin: 0 20px;
+    font-size: 0.65rem;
+    line-height: 1.9;
+    gap: 5px;
+    padding: 18px 0 25px;
+  }
+  .toast {
+    left: 50%;
+    bottom: 24px;
+    max-width: 90vw;
+    width: max-content;
+    font-size: 0.78rem;
+  }
+  .settings-intro {
+    padding: 18px;
+    gap: 13px;
+  }
+  .settings-intro p {
+    font-size: 0.8rem;
+  }
+  .settings-intro p > span {
+    font-size: 0.72rem;
+  }
+  .settings-intro .small-illustration {
+    width: 34px;
+  }
+  .settings-intro .art-icon {
+    width: 33px;
+  }
+  .management-list .habit-row {
+    padding: 15px 11px;
+    gap: 9px;
+  }
+  .management-list .habit-description strong {
+    font-size: 0.88rem;
+  }
+  .period-tag {
+    font-size: 0.66rem;
+    padding: 4px 7px;
+  }
+  .dialog-backdrop {
+    padding: 14px;
+  }
+  .habit-dialog {
+    padding: 23px 21px;
+    max-height: 94dvh;
+    border-radius: 21px;
+  }
+  .dialog-header {
+    margin-bottom: 23px;
+  }
+  .dialog-header h2 {
+    font-size: 1.22rem;
+  }
+  .field input,
+  .field select {
+    font-size: 1rem;
+  }
+  .field {
+    margin-bottom: 21px;
+  }
+  .field > span {
+    font-size: 0.82rem;
+  }
+  .field small {
+    font-size: 0.69rem;
+  }
+  .icon-options {
+    gap: 7px;
+  }
+  .icon-option {
+    padding: 8px 2px 6px;
+  }
+  .icon-option > span {
+    font-size: 0.59rem;
+  }
+  .icon-option > .art-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .period-choice {
+    font-size: 0.81rem;
+    gap: 5px;
+  }
+  .goal-choice strong {
+    font-size: 0.83rem;
+  }
+  .goal-choice small {
+    font-size: 0.68rem;
+  }
+  .weekday-options {
+    gap: 5px;
+  }
+  .weekday {
+    font-size: 0.82rem;
+    min-height: 39px;
+  }
+  .dialog-actions .button {
+    flex: 1;
+    font-size: 0.82rem;
+    padding: 11px;
+  }
+  .dialog-actions .primary {
+    min-width: 0;
+  }
+  .habit-preview {
+    padding: 13px;
+    gap: 10px;
+  }
+  .habit-preview strong {
+    font-size: 0.84rem;
+  }
+  .habit-preview p {
+    font-size: 0.68rem;
+  }
+}
+@media (max-width: 370px) {
+  .page-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .topbar {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .page-heading {
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  .page-heading > .button {
+    margin-left: auto;
+  }
+  .welcome-illustration {
+    width: 115px;
+    margin-left: -25px;
+    margin-right: -20px;
+  }
+  .welcome-copy h2 {
+    font-size: 0.9rem;
+  }
+  .welcome-copy p {
+    font-size: 0.69rem;
+  }
+  .welcome-copy {
+    max-width: 225px;
+  }
+  .cat-caption {
+    display: none;
+  }
+  .row-quantity {
+    display: none;
+  }
+  .habit-row {
+    gap: 8px;
+  }
+  .habit-art {
+    width: 36px;
+    height: 39px;
+  }
+  .habit-art > .art-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .habit-description strong {
+    font-size: 0.84rem;
+  }
+  .habit-description > span {
+    font-size: 0.67rem;
+  }
+  .calendar-heading > span {
+    font-size: 0.7rem;
+  }
+  .calendar-heading > span > .art-icon {
+    display: none;
+  }
+  .dialog-backdrop {
+    padding: 10px;
+  }
+  .habit-dialog {
+    padding: 22px 17px;
+  }
+  .icon-options {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 5px;
+  }
+  .icon-option > span {
+    font-size: 0.55rem;
+  }
+  .icon-option > .art-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .goal-choice {
+    padding: 11px;
+  }
+  .quantity-fields {
+    gap: 9px;
+  }
+  .weekday-options {
+    gap: 4px;
+  }
+  .form-error {
+    font-size: 0.75rem;
+  }
+  .empty-period {
+    flex-wrap: wrap;
+  }
+  .settings-intro {
+    padding: 15px;
+  }
+  .period-tag {
+    padding: 4px 6px;
+  }
+  .management-list .habit-row {
+    gap: 7px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
