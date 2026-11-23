@@ -109,7 +109,6 @@ git push -u origin feat/your-name-feature
 
 ## 待辦
 
-- [ ] 填入四位組員對應帳號並完成邀請。
 - [x] 匯入 A 的本週程式碼；B／C／D 功能依後續 PR 加入。
 - [x] 補上本機執行方式與不含機密值的設定範例。
 - [ ] 確認 Supabase 既有結構並保存後續 SQL 變更。
