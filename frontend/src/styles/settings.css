@@ -1,0 +1,101 @@
+.settings-intro {
+  background: #f3f2e5;
+  border-radius: 18px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+.small-illustration {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+}
+.small-illustration > .art-icon {
+  width: 43px;
+  height: 43px;
+  color: #b49a76;
+}
+.settings-intro p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.9;
+  color: #8f937a;
+}
+.settings-intro p > span {
+  font-size: 0.78rem;
+  color: #a2a58e;
+}
+.list-caption {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3px 15px;
+  color: #8b9979;
+  font-size: 0.85rem;
+}
+.list-caption > span:last-child {
+  font-size: 0.75rem;
+  color: #a3ad93;
+}
+.management-list .habit-row {
+  padding: 18px 20px;
+}
+.management-list .habit-description strong {
+  font-size: 1rem;
+}
+.period-tag {
+  font-size: 0.73rem;
+  padding: 5px 11px;
+  border-radius: 20px;
+  background: #eef0dc;
+  color: #9b9f73;
+  white-space: nowrap;
+}
+.period-tag.noon {
+  background: #fbf0cd;
+  color: #b6a46f;
+}
+.period-tag.evening {
+  background: #f4e8e3;
+  color: #b39587;
+}
+.add-another {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  min-height: 55px;
+  border: 1px dashed #d7dfc8;
+  border-radius: 15px;
+  margin-top: 16px;
+  color: #a0ad8c;
+  font-size: 0.85rem;
+  background: #f6f8ee;
+}
+.add-another > .art-icon {
+  width: 20px;
+  height: 20px;
+}
+.add-another:hover {
+  background: #edf3e2;
+}
+.app-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 0 45px;
+  padding: 20px 0 24px;
+  border-top: 1px solid #ececdf;
+  color: #acb29f;
+  font-size: 0.69rem;
+}
+.app-footer a {
+  color: #9aa68a;
+  text-decoration: none;
+}
+.app-footer a:hover {
+  text-decoration: underline;
+}

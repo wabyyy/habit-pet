@@ -1,0 +1,24 @@
+{
+  "name": "slow-days-a-week2",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "A 11/23–11/29：今日習慣、新增與編輯、早中晚、內建圖示與兩種目標。",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "format": "prettier --write src scripts tests package.json"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "prettier": "3.10.1"
+  }
+}

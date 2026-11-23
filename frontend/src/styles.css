@@ -1,0 +1,7 @@
+/* 各模組樣式依原有順序載入；手機版微調集中在 responsive.css。 */
+@import "./styles/base.css";
+@import "./styles/layout.css";
+@import "./styles/today.css";
+@import "./styles/settings.css";
+@import "./styles/editor.css";
+@import "./styles/responsive.css";
